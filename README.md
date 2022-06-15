@@ -1,5 +1,5 @@
 
-# <img src = "https://user-images.githubusercontent.com/97898227/173760151-58bc989b-303d-48d6-9097-b6790eb9532d.png" width="250" height="250"> 
+# <img src = "https://user-images.githubusercontent.com/97898227/173771673-0c69eade-19bf-4508-8e43-5ad5b8ed60e4.gif" width="800" height="400"> 
 
 ## 2022.05 jsp project online shop
 고양이 용품 전문 인터넷 쇼핑몰을 구현한 팀 프로젝트
