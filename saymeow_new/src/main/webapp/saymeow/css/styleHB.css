@@ -1,0 +1,306 @@
+@charset "EUC-KR";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*readMyReview.jsp*/
+#readMyReview .review-contents{
+	margin:0 auto;
+}
+
+#readMyReview .heading{
+	text-align: center; 
+	margin: 1.5vw; 
+	margin-bottom: 2vw;
+}
+
+
+#readMyReview .table{
+	border: 1px solid #eee;
+}
+
+#readMyReview .table-column{
+	height:6vh;
+	vertical-align:middle;
+	background-color:#eee;
+}
+
+#readMyReview .table-data{
+	vertical-align:middle;
+}
+
+#readMyReview .table-data, #readMyReview .review-board-aTag{
+	color:black;
+}
+
+#readMyReview .deleteBtn {
+	background-color:#eee;
+	border:1px solid #eee;
+	color:black;
+}
+
+#readMyReview .submitBtn {
+	background-color:#eee;
+	border:1px solid #eee;
+	color:black;
+	height:3.7vh;
+	line-height: 2vh;
+	margin-bottom:0.5vh;
+}
+
+#readMyReview .review-board-block-aTag{
+	color:black;
+}
+
+#readMyReview .reviewInfo{
+	font-size:0.7em;
+	color:#a0a0a0;
+}
+
+#readMyReview .reviewSearchBtn, #readMyReview .initBtn{
+	margin-bottom: 0.6vh;
+	background-color:#eee;
+	border:1px solid #eee;
+	color:black;
+}
+
+
+
+
+/*reviewForm.jsp*/
+#review-board-container {
+	margin:5vh auto;
+	text-align:center;
+}
+
+#review-board-container .review-section{
+	border: 1px solid #ccc;
+  	border-radius: 5px;
+  	width: 60vw;
+  	margin: 0 auto;
+}
+
+#review-board-container .title{
+	padding-top:1vw;
+}
+
+#review-board-container .review-form{
+	display: inline-block;
+    padding-top:2vh;
+    margin: 0 auto;
+}
+
+#review-board-container .form-label{
+	font-size:1em;
+}
+
+#review-board-container #exampleFormControlTextarea1 {
+	height:13vh;
+}
+
+#review-board-container .star { /*전체 별점을 감싸는 span태그*/
+    position: relative; /*부모요소*/
+    font-size: 2rem;
+    color: #ddd;
+}
+  
+#review-board-container .star input { /*바*/
+	/*position 속성으로 인해 왼쪽을 기준으로 하여 부모요소에 꽉 맞게 찬다.*/
+    width: 100%;
+    height: 100%;
+    position: absolute; /*자식요소*/
+    left: 0; 
+    opacity: 0;
+    cursor: pointer;
+}
+  
+#review-board-container .star span { /*배경색 있는 별*/
+	/*position 속성으로 인해 왼쪽을 기준으로 하여 부모요소에 꽉 맞게 찬다.*/
+    width: 0;
+    position: absolute; /*자식요소*/
+    left: 0;
+    color: red;
+    overflow: hidden; /*width에서 초과되는 부분은 숨김처리*/
+    pointer-events: none;
+}
+
+#review-board-container .submitBtn{
+	display: inline-block;
+	margin:3vh 0;
+}
+
+/*reviewBoard.jsp*/
+#review-board .review-board-topic{
+	margin-bottom:1vh;
+}
+
+#review-board .npFrm-td{ /*5개씩, 10개씩, ... 보기*/
+	margin:1vw;
+}
+
+#review-board .table-column{/*리뷰게시판 컬럼*/
+	background-color:#E0B0FF;
+}
+
+#review-board .review-board-aTag{ /*리뷰게시판 a태그들*/
+	text-decoration-line: none;
+	color:black;
+}
+
+#review-board .form-select{ /*x개씩 보기 옵션, 검색 조건 옵션*/
+	width:9vw;
+}
+
+#review-board .form-control{ /*리뷰 검색창*/
+	width:10vw;
+}
+
+#review-board .reviewSearchBtn {/*리뷰 검색창 검색버튼*/
+	margin:0 0 0.7vh 0.3vw;
+}
+
+
+/*adminMain.jsp*/
+#adminMain .nav > a{
+	text-decoration-line: none;
+}
+
+
+
+/*adminReviewBoard.jsp*/
+#adminReviewBoard .review-contents{
+	margin:0 auto;
+}
+
+#adminReviewBoard .heading{
+	text-align: center; 
+	margin: 1.5vw; 
+	margin-bottom: 2vw;
+}
+
+#adminReviewBoard .table{
+	border: 1px solid #eee;
+}
+
+#adminReviewBoard .table-column{
+	height:6vh;
+	vertical-align:middle;
+	background-color:#eee;
+}
+
+#adminReviewBoard .table-data{
+	vertical-align:middle;
+}
+
+#adminReviewBoard .table-data, #adminReviewBoard .review-board-aTag{
+	color:black;
+}
+
+#adminReviewBoard .deleteBtn {
+	background-color:#eee;
+	border:1px solid #eee;
+	color:black;
+}
+
+#adminReviewBoard .review-board-block-aTag{
+	color:black;
+}
+
+#adminReviewBoard .reviewInfo{
+	font-size:0.7em;
+	color:#a0a0a0;
+}
+
+#adminReviewBoard .commentDeleteBtn{
+	font-size:0.3em;
+	background-color:black;
+	border:1px solid black;
+	height:0.3em;
+	color:white;
+	line-height: 0.3em;
+}
+
+#adminReviewBoard .submitBtn{
+	background-color:#eee;
+	border:1px solid #eee;
+	color:black;
+	height:3.7vh;
+	line-height: 2vh;
+	margin-bottom:0.5vh;
+}
+
+#adminReviewBoard .searchDiv{
+	text-align:center; 
+	margin: 2vw;
+	display:inline;
+}
+
+#adminReviewBoard .review-keyword, #adminReviewBoard .form-select{
+	display:inline;
+	width:10vw;
+}
+
+#adminReviewBoard .reviewSearchBtn, #adminReviewBoard .initBtn{
+	margin-bottom: 0.6vh;
+	background-color:#eee;
+	border:1px solid #eee;
+	color:black;
+}
+
+#adminReviewBoard .npFrm-td{
+	margin-bottom: 1vh;
+}
+
+/*adminOrder.jsp*/
+#adminOrder .nav > a{
+	text-decoration-line: none;	
+}
+
+#adminOrder .table-column{/*게시판 컬럼*/
+	height:6vh;
+	vertical-align:middle;
+	background-color:#eee;
+}
+
+#adminOrder .dateSearchBtn{
+	display:inline-block;
+	font-size:0.8em;
+	background-color:#eee;
+	border:1px solid #eee;
+	color:black;
+}
+
+#adminOrder .pagingATag{
+	color:black;
+}
+
+#adminOrder .searchDiv {
+	text-align:center;
+	margin-top: 3vh;
+}
+
+#adminOrder .form-select, #adminOrder .form-text-input{
+	display:inline;
+	width:10vw;
+	margin-bottom:5vh;
+}
+
+#adminOrder .orderSearchBtn{
+	margin-bottom: 0.6vh;
+	background-color:#eee;
+	border:1px solid #eee;
+	color:black;
+}
+
+#adminOrder .deleteBtn{
+	background-color:#eee;
+	border:1px solid #eee;
+	color:black;
+}
+
+
+
+

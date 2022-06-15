@@ -1,0 +1,34 @@
+@charset "EUC-KR";
+
+
+.chart {
+	margin: 0 auto;
+	text-align: center;
+	width: 85%;
+}
+
+.classpie {
+	display: flex;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+}
+
+.table {
+	margin: auto;
+}
+
+th, td {
+	border-width: thin;
+}
+
+.barandtable{
+	display: flex;
+	width: 100%;
+	margin: auto;
+	}
+	
+#chart_div {
+	width: 1200px;
+	margin-left: 0;
+}

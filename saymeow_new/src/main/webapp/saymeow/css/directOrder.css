@@ -1,0 +1,29 @@
+@charset "EUC-KR";
+
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100%;
+}
+
+.title {
+	text-align: center;
+}
+
+.contents {
+	display: block;
+    align-items: center;
+    height: 100%;
+    align-content: center;
+    text-align: center;
+}
+
+table {
+	width: 50%;
+	margin: auto;
+}

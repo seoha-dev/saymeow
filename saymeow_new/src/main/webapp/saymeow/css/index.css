@@ -1,0 +1,82 @@
+/*취합완료*/
+
+/* Index(main) css 파일 */
+@charset "EUC-KR";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+ a:link { text-decoration: none; color: black;}
+ a:visited { color: black; text-decoration: none;}
+ a:hover { text-decoration: underline;}
+ a:active { color: black;}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+section, body {
+	background-color: #F0F0F0;
+}
+
+.bsection {
+	display: flex;
+	padding-top: 5em;
+    align-items: center;
+    align-content: center;
+}
+
+ img { 
+ 	display: block;
+	margin:auto;
+ 	}
+ 
+.psection {
+	display: block;
+	padding-top: 3em;
+    align-items: center;
+    align-content: center;
+}	
+
+.plist {
+	display: block;
+	width: 70%;
+	margin: auto;
+    align-content: center;
+}
+
+.populartitle, .newtitle {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	margin-top: 3em;
+	margin-bottom: 3em;
+	
+}
+
+.popular, .new {
+	text-align: left;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 20px;
+	float: left;
+}
+
+.popualrmore, .newmore {
+	text-align: right;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 15px;
+	float: right;
+}
+
+.prow {
+	padding: 0;
+	justify-content: center;
+	list-style-type: none;
+    position: relative;
+	display: grid;
+	grid-template-columns: repeat(5, 250px);
+	text-align: center;
+}
+

@@ -1,0 +1,302 @@
+@charset "EUC-KR";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+/*login.jsp*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #F0F0F0;
+}
+
+.loginsection, .membersection {
+	background-color: white;
+	padding-top: 3em;
+}
+
+#loginTbl {
+	background-color: white;
+	margin: 0 auto;
+	width:25vw;
+	height:30vh;
+	margin-top:5vh;
+	border:1px solid #d1d3d4;
+}
+
+#loginTbl .idPwdTr{
+	height:5vh;
+}
+
+#loginTbl .idTf, #loginTbl .pwdTf {
+	height: 5vh;
+	width: 21vw;
+	border: 1px solid #d3d3d3;
+}
+
+#loginTbl .pwdTf {
+	margin-bottom:1vh;
+	border-top:none;
+}
+
+#loginTbl .rememberTd{
+	height:1vh;
+}
+
+#loginTbl .remember{
+	margin-top:1vw;
+	margin-left:2vw;
+}
+
+#loginTbl .loginBtn{
+	border:none;
+	background-color: #eee;
+	display:inline;
+	width:10vw;
+	height:4vh;
+	text-align: center;
+	text-decoration-line: none;
+	border-radius: 2px;
+	margin-left:2vw;
+}
+
+#loginTbl .joinBtn {
+	border:none;
+	background-color:#eee;
+	display:inline;
+	width:10vw;
+	height:4vh;
+	text-align: center;
+	text-decoration-line: none;
+	border-radius: 2px;
+	margin-right:2vw;
+}
+
+#findTbl{
+	margin: 1vh auto;
+}
+
+#findTbl .findIdBtn, #findTbl .findPwdBtn{
+	border:none;
+	background-color:white;
+	color:#a0a0a0;
+	font-size:0.9em;
+	display:inline;
+	width:7.3vw;
+	height:1.5vw;
+	text-align: center;
+	text-decoration-line: none;
+}
+
+#infoTbl{
+	margin: 1vh auto;
+}
+
+
+
+
+.regFormTb{
+	margin: 0 auto; 
+	border: 1px solid #808080; 
+	width: 40vw;
+}
+
+.checkIdBtn{
+	display:inline-block;
+	width:6vw;
+}
+
+.loginlo{
+	border-radius: 5px;
+
+}
+
+.logbtn{
+	border:none;
+	background-color: #9598ca;
+	display:inline;
+	width:10vw;
+	text-align: center;
+	text-decoration-line: none;
+	border-radius: 5px;
+}
+
+.find, .cancel {
+	border:none;
+	background-color: #9598ca;
+	display:inline;
+	width:7.3vw;
+	height:3vw;
+	text-align: center;
+	text-decoration-line: none;
+	border-radius: 5px;	
+}
+
+
+/*findid.jsp*/
+#findIdBd .findIdFrm{
+	width:25vw;
+	height:33vh;
+	border:1px solid #d1d3d4;
+	margin:0 auto;
+	margin-top:5vh;
+}
+
+#findIdBd .subject{
+	text-align:center;
+	margin:1vw auto;
+}
+
+#findIdBd .findIdSec{
+	display:block;
+	width:25vw;
+	margin: 0 auto;
+	margin-top:4vh;
+	text-align:center;
+}
+
+#findIdBd .nameLb, #findIdBd .emailLb {
+	text-align:left;
+	width: 10vw;
+}
+
+#findIdBd .nameTf, #findIdBd .emailTf {
+	width: 13vw;
+	text-align:left;
+}
+
+#findIdBd .findBtn{
+	border:none;
+	background-color:#eee;
+	width:9vw;
+	height:5vh;
+	font-size:1.1em;
+	border-radius: 5px;	
+	display:block;
+	margin: 4vh auto;
+	color:#404040;
+	font-weight: bold;
+}
+
+#findIdBd .back{
+	text-decoration:none;
+	color:#808080;
+	display:block;
+	width:8vw;
+	margin:1vh auto;
+	transform: translateX(-9.5vw);
+	cursor:pointer;
+}
+
+
+/*findPw.jsp*/
+#findPwdBd .findPwdFrm{
+	width:25vw;
+	height:33vh;
+	border:1px solid #d1d3d4;
+	margin:0 auto;
+	margin-top:5vh;
+}
+
+#findPwdBd .subject{
+	text-align:center;
+	margin:1vw auto;
+}
+
+#findPwdBd .findPwdSec{
+	display:block;
+	width:25vw;
+	margin: 0 auto;
+	margin-top:4vh;
+	text-align:center;
+}
+
+#findPwdBd .idLb, #findPwdBd .emailLb {
+	text-align:left;
+	width: 10vw;
+}
+
+#findPwdBd .idTf, #findPwdBd .emailTf {
+	width: 13vw;
+	text-align:left;
+}
+
+#findPwdBd .findBtn{
+	border:none;
+	background-color:#eee;
+	width:9vw;
+	height:5vh;
+	font-size:1.1em;
+	border-radius: 5px;	
+	display:block;
+	margin: 4vh auto;
+	color:#404040;
+	font-weight: bold;
+}
+
+#findPwdBd .back{
+	text-decoration:none;
+	color:#808080;
+	display:block;
+	width:8vw;
+	margin:1vh auto;
+	transform: translateX(-9.5vw);
+	cursor:pointer;
+}
+
+
+
+
+/*findidResult.jsp*/
+#findIdResultBd .searchRs{
+	border:1px solid #d1d3d4;
+	width:30vw;
+	height:30vh;
+	margin: 5vh auto;
+	text-align:center;
+}
+
+#findIdResultBd .lbDiv{
+	margin-top: 6vh;
+}
+
+#findIdResultBd .lb{
+	color:#404040;
+	display:block;
+}
+
+#findIdResultBd .mid{
+	font-size:2.3em;
+}
+
+#findIdResultBd .inlineLb {
+	display:inline;
+}
+
+#findIdResultBd .btns{
+	margin-top:5vh;
+	display:inline-block;
+}
+
+#findIdResultBd .loginBtn{
+	display:inline;
+	width:10vw;
+	font-size:1.2em;
+	height:5vh;
+	border:1px solid #eee;
+	border-radius:5px;
+	background-color:#eee;
+}
+
+#findIdResultBd .findPwdBtn{
+	display:inline;
+	width:10vw;
+	font-size:1.2em;
+	height:5vh;
+	border:1px solid #eee;
+	border-radius:5px;
+	background-color:#eee;
+}
+
+

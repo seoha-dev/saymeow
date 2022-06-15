@@ -1,0 +1,73 @@
+/*취합완료*/
+@charset "EUC-KR";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100&display=swap');
+
+
+ a:link { color: black; text-decoration: none;}
+ a:visited { color:black; text-decoration: none;}
+ a:hover { color: #9598ca;}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.ssection {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	background-color: #F0F0F0;
+	font-family: 'IBM Plex Sans KR', sans-serif;
+	font-weight: bold;
+}
+
+.logo {
+	width: 10em;
+	height: 10em; /*화면마다 높이가 다르게설정되어있어서 150%->vh 단위로 설정*/
+}
+
+.search {
+	margin: 1em;
+	align-items: center;
+	text-align: center;
+	display: flex;
+	height: auto;
+
+}
+.sTf {
+	display:inline-block;
+	width: 30em;
+	height: 40px;
+	font-weight: bolder;
+
+}
+.searchBtn {
+	color: white;
+	font-size: 1.1em;
+	width: 100px;
+	background-color: #9598ca;
+	border: none;
+	font-weight: bolder;
+}
+
+#login, #logout, #join, #cart, #my, #admin{
+	color: white;
+	font-size: 1.1em;
+	background-color: #9598CA;
+	border: none;
+	font-weight: bold;
+}
+
+
+.csection {
+	height: 10%;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+	font-family: 'IBM Plex Sans KR', sans-serif;
+	font-weight: bold;
+	background-color: #F0F0F0;
+}

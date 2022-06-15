@@ -1,0 +1,389 @@
+@charset "EUC-KR";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#productDetail {
+	background-color: #F0F0F0;
+	text-align: center;
+}
+
+#productDetail .initialize{
+	width: 100%;
+	text-align: center;
+	padding-top: 5em;
+	padding-bottom: 1em;
+}
+
+#productDetail img {
+	display: block;
+	margin: auto;
+}
+
+#productDetail table, tr, td {
+	border: none;
+}
+
+#productDetail td, th {
+	vertical-align: middle;
+}
+
+#productDetail a {
+	text-decoration: none;
+}
+
+#productDetail .shop_info {
+	background-color: white;
+	display: flex;
+	width: 1080px;
+	height: 300px;
+	margin: 10px auto 100px;
+	border: 1px solid #000;
+	border-radius: 20px;
+	padding: 10px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#productDetail .img_area {
+	width: 200px;
+	height: 200px;
+	margin-left: 150px;
+	overflow: hidden;
+}
+
+#productDetail .img_area img {
+	width: 100%;
+}
+
+#productDetail .info_list {
+	width: 200px;
+	margin-lefT: 50px;
+}
+
+#productDetail .info_list>div dt {
+	display: block;
+	width: 100px;
+}
+
+#productDetail .info_list>div {
+	display: flex;
+	margin-bottom: 0px;
+}
+
+#productDetail .info_list>div:nth-child(3) {
+	margin-bottom: 25px;
+}
+
+#productDetail .info_list>div dt {
+	font-weight: 700;
+	color: #888;
+}
+
+#productDetail .info_list>div dd {
+	font-weight: 700;
+	color: #000;
+}
+
+#productDetail .info_list input {
+	vertical-align: top;
+	text-align: center;
+	border: 1px solid #777;
+	border-right: none;
+	width: 50px;
+	height: 30px;
+	background: transparent;
+	font-size: 16px;
+	font-weight: bold;
+	box-sizing: border-box;
+	color: #111;
+	line-height: 25px;
+	padding: 11px 0 9px 0;
+	border-radius: 0;;
+}
+
+#productDetail input {
+	outline: none;
+}
+
+#productDetail input[type="number"]::-webkit-outer-spin-button, #productDetail input[type="number"]::-webkit-inner-spin-button
+	{
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+#productDetail .info_list .num_ {
+	width: 15px;
+	height: 30px;
+	background-color: #F0F0F0;
+}
+
+#productDetail .info_list .num_ .btn_ {
+	position: relative;
+	width: 15px;
+	height: 15px;
+	display: block;
+	border: 1px solid #777;
+}
+
+#productDetail .info_list .num_ .btn_:after {
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	border-top: 2px solid #000;
+	content: "";
+	display: block;
+	border-right: 2px solid #000;
+}
+
+#productDetail .info_list .count dd {
+	display: flex;
+}
+
+#productDetail .up:after {
+	transform: rotate(-45deg);
+	top: 4.5px;
+	left: 4px;
+}
+
+#productDetail .down:after {
+	transform: rotate(135deg);
+	top: 1.5px;
+	left: 4px;
+}
+
+#productDetail .btn_wrap {
+	display: flex;
+	margin-top: 100px;
+	margin-right: 100px;
+}
+
+#productDetail .btn_wrap .side_btn {
+	border: none;
+	width: 120px;
+	height: 40px;
+	background-color: #9598ca;
+	display: block;
+	text-align: center;
+	margin-right: 10px;
+	line-height: 40px;
+	color: #fff;
+	border-radius: 5px;
+}
+
+#productDetail .btn_wrap .side_btn2 {
+	width: 120px;
+	height: 40px;
+	background-color: #A6A6A6;
+	display: block;
+	text-align: center;
+	margin-right: 10px;
+	line-height: 40px;
+	color: #fff;
+	border-radius: 5px;
+}
+
+#productDetail .detail {
+	width: 70%;
+	height: 100px;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 100px;
+}
+
+#productDetail .show_btn {
+	width: 100%;;
+	height: 50px;
+	background-color: #9598ca;
+	line-height: 50px;
+	text-align: center;
+	margin: auto;
+	cursor: pointer;
+	position: absolute;
+	bottom: 0;
+	font-size: 20px;
+	font-weight: 700;
+	color: #fff;
+	display: none;
+}
+
+#productDetail .detail>span {
+	position: absolute;
+	top: 0;
+	left: 10px;
+	font-weight: 700;
+	font-size: 12px;
+}
+
+#productDetail .detail.on {
+	display: block;
+	height: auto;
+	background-color: white;
+}
+
+#productDetail .show_btn.show {
+	display: block;
+}
+
+/*¸®ºä*/
+#productDetail .review {
+	background-color: white;
+	width: 1080px;
+	border-top: 1px solid #000;
+	height: auto;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+	padding: 10px;
+}
+
+#productDetail .review>span {
+	position: absolute;
+	top: 0;
+	left: 10px;
+	font-weight: 700;
+	font-size: 12px;
+}
+
+#productDetail .review .review_cate {
+	text-align: right;
+}
+
+#productDetail .review .review_cate a {
+	color: #888
+}
+
+#productDetail .review .review_cate span {
+	margin: 0 5px;
+}
+
+#productDetail .review_wrap {
+	margin-top: 20px;
+}
+
+#productDetail .review_wrap .form-select{
+	width:10vw;
+	display:inline;
+}
+
+#productDetail .review_wrap .form-control{
+	width:10vw;
+}
+
+#productDetail .review_wrap, table {
+	width: 100%;
+	border-spacing: 0;
+	border-collapse: collapse
+}
+
+#productDetail .review_wrap .table-column{
+	height:6vh;
+	vertical-align:middle;
+	background-color:#eee;
+}
+
+#productDetail .deleteBtn{
+	background-color:#eee;
+	border:1px solid #eee;
+	color:black;
+}
+
+#productDetail .reviewInfo{
+	font-size:0.7em;
+	color:#a0a0a0;
+}
+
+#productDetail .scoreImg{
+	display:inline;
+}
+
+#productDetail .submitBtn{
+	background-color:#eee;
+	border:1px solid #eee;
+	color:black;
+	height:3.7vh;
+	line-height: 2vh;
+	margin-bottom:0.5vh;
+}
+
+#productDetail .commentDeleteBtn{
+	font-size:0.3em;
+	background-color:black;
+	border:1px solid black;
+	height:0.3em;
+	color:white;
+	line-height: 0.3em;
+}
+
+#productDetail .reviewSearchBtn{
+	margin-bottom: 0.6vh;
+	background-color:#eee;
+	border:1px solid #eee;
+	color:black;
+}
+
+#productDetail .initBtn {
+	margin-bottom: 0.6vh;
+	background-color:#eee;
+	border:1px solid #eee;
+	color:black;
+}
+
+#productDetail .searchDiv{
+	text-align:center; 
+	margin: 2vw;
+	display:inline;
+}
+
+#productDetail .backBtn{
+	background-color:#9598ca;
+	border:1px solid #9598ca;
+	color:white;
+}
+
+
+#productDetail .review_wrap table tr {
+	height: 40px;
+	line-height: 40px;
+}
+
+#productDetail .review_wrap table th {
+	background-color: #eee;
+	text-align: center;
+}
+
+#productDetail .review_wrap table td {
+	text-align: center;
+	padding: 5px;
+}
+
+#productDetail .review_wrap table td:nth-child(2) {
+	text-align: left;
+}
+
+#productDetail .review_wrap table td a {
+	color: #000;;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#productDetail .review_wrap table tr.re td a {
+	margin-left: 10px;
+}
+
+#productDetail .review_wrap table tr.re td a:before {
+	content: "RE";
+	color: #fff;
+	background-color: #aaa;
+	font-weight: 700;
+	padding: 0 4px
+}
+
+#productDetail .review_wrap table tbody tr:first-child, #productDetail .review_wrap table tbody tr:first-child td {
+	border-top: none;
+}
